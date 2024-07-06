@@ -1,0 +1,20 @@
+.footer {
+    color: #777;
+    padding: 10px 15px;
+    height: 20px;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+}
+
+.footer button {
+    padding: 0 5px;
+    margin: 3px;
+    border: 1px solid transparent;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+.footer button.selected {
+    border-color: rgba(175, 47, 47, 0.2);
+}

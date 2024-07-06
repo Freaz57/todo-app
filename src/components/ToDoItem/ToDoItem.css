@@ -1,0 +1,48 @@
+li {
+    position: relative;
+    font-size: 24px;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    text-align: center;
+    width: 40px;
+    /* auto, since non-WebKit browsers doesn't support input styling */
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    border: none; /* Mobile Safari */
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="checkbox"]:after {
+    content: '\u2713';
+    font-size: 20px;
+    color: #5dc2af;
+}
+
+input[type="checkbox"]:checked:after {
+    color: #5dc2af;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+}
+
+button:hover {
+    color: #af5b5e;
+}
+
+span {
+    flex-grow: 1;
+}
